@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+    {% extends 'rango/base.html' %}
+	{% load staticfiles %}
+	{% block title_block %}
+		Rango
+	{% endblock %}
+
+	{% block body_block %}
+        <div>
+	        <h1 class="page-header">hello world</h1>
+	        ~~~~~~~~~~~~~~~~~~~
+		</div>
+		<p>
+		<img src="{% static 'images/gg.jpg'%}" alt="Picture of Rango" />
+	<hr>
+	{% endblock %}
